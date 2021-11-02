@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"
+        integrity="sha512-RNLkV3d+aLtfcpEyFG8jRbnWHxUqVZozacROI4J2F1sTaDqo1dPQYs01OMi1t1w9Y2FdbSCDSQ2ZVdAC8bzgAg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/ejs@3.1.6/ejs.min.js"></script>
+    <style>
+        .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        max-width: 300px;
+        margin: auto;
+        text-align: center;
+        font-family: arial;
+        }
+    
+        .price {
+        color: grey;
+        font-size: 22px;
+        }
+    
+        .card button {
+        border: none;
+        outline: 0;
+        padding: 12px;
+        color: white;
+        background-color: #000;
+        text-align: center;
+        cursor: pointer;
+        width: 100%;
+        font-size: 18px;
+        }
+    
+        .card button:hover {
+        opacity: 0.7;
+        }
+    </style>
+
+</head>
+
+
+<body>
+<button type="button" class="btn btn-link mt-3 mb-5 float-right" onclick="cargaCarrito(true)">Mostrar Carrito</button>
+
+<div class="p-3 mb-2 bg-light text-dark">
+    <div class="container mt-1"> 
+        <div id="carrito"></div>
+    </div> 
+
+    <div class="container mt-2"> 
+        <div id="productos"></div>
+    </div>
+
+    <div class="container mt-3"> 
+        <div id="carga"></div>
+    </div>
+
+<script src="js/main.js"></script>
+
+<button type="button" class="btn btn-link mt-3 mb-5" onclick="cargaPaginaProd(true)">Cargar un Producto Nuevo</button>
+
+</div>
+</body>
+</html>

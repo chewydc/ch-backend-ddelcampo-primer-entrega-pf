@@ -1,0 +1,38 @@
+{{#if mostrarFormCarga}} 
+    <h1>Formulario de carga de Productos</h1>
+    <br>
+    <form>
+        <div class="form-group">
+            <label for="nombre"><b>Nombre</b></label>
+            <input id="nombre" class="form-control" type="text" name="nombre">
+        </div>
+
+        <div class="form-group">
+            <label for="Precio"><b>Precio</b></label>
+            <input id="Precio" class="form-control" type="text" name="precio">
+        </div>
+
+        <div class="form-group">
+            <label for="descripcion"><b>Descripcion</b></label>
+            <input id="descripcion" class="form-control" type="text" name="descripcion">
+        </div>
+
+        <div class="form-group">
+            <label for="codigo"><b>Codigo</b></label>
+            <input id="codigo" class="form-control" type="text" name="codigo">
+        </div>
+
+        <div class="form-group">
+            <label for="Stock"><b>Stock</b></label>
+            <input id="Stock" class="form-control" type="text" name="Stock">
+        </div>
+        
+        <div class="form-group">
+            <label for="foto"><b>Foto URL</b></label>
+            <input id="foto" class="form-control" type="text" name="foto">
+        </div>
+        
+        <button type="submit" class="btn btn-success mt-3 mb-5" onclick="cargaProd()">Cargar</button>
+        <button type="button" class="btn btn-link mt-3 mb-5" onclick="cargaPaginaProd(false)">Cerrar</button>
+    </form>
+{{/if}}

@@ -1,0 +1,32 @@
+[
+  {
+    "nombre": "Regla 10cm",
+    "precio": "12.32",
+    "descripcion": "regla de 10cm",
+    "codigo": "123456",
+    "Stock": "10",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-512.png",
+    "timestamp": "1/11/2021 18:03:43",
+    "id": 1
+  },
+  {
+    "nombre": "Calculadora",
+    "precio": "1520",
+    "descripcion": "Calculadora Cientifica",
+    "codigo": "54551",
+    "Stock": "5",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",
+    "timestamp": "2/11/2021 15:54:35",
+    "id": 2
+  },
+  {
+    "nombre": "Mochila",
+    "precio": "1235",
+    "descripcion": "mochila copada",
+    "codigo": "12355",
+    "Stock": "10",
+    "foto": "https://cdn3.iconfinder.com/data/icons/education-209/64/bag-pack-container-school-128.png",
+    "timestamp": "2/11/2021 15:57:26",
+    "id": 3
+  }
+]
